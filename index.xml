@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>zevdg</title>
+    <link>https://zevdg.com/</link>
+    <description>Recent content on zevdg</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>Zev.Goldstein@gmail.com (Zev Goldstein)</managingEditor>
+    <webMaster>Zev.Goldstein@gmail.com (Zev Goldstein)</webMaster>
+    <lastBuildDate>Sun, 03 Jun 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://zevdg.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Example Post</title>
+      <link>https://zevdg.com/post/example-post/</link>
+      <pubDate>Sun, 03 Jun 2018 00:00:00 +0000</pubDate>
+      <author>Zev.Goldstein@gmail.com (Zev Goldstein)</author>
+      <guid>https://zevdg.com/post/example-post/</guid>
+      <description>You can write regular markdown here and Jekyll will automatically convert it to a nice webpage. I strongly encourage you to take 5 minutes to learn how to write in markdown - it&amp;rsquo;ll teach you how to transform regular text into bold/italics/headings/tables/etc.
+Here is some bold text
+Here is a secondary heading Here&amp;rsquo;s a useless table:
+   Number Next number Previous number     Five Six Four   Ten Eleven Nine   Seven Eight Six   Two Three One    How about a yummy crepe?</description>
+    </item>
+    
+    <item>
+      <title>About me</title>
+      <link>https://zevdg.com/page/about-me/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>Zev.Goldstein@gmail.com (Zev Goldstein)</author>
+      <guid>https://zevdg.com/page/about-me/</guid>
+      <description>I&amp;rsquo;m a full-stack polyglot developer currently residing in Morgantown, WV.
+When I&amp;rsquo;m not coding, you can find me playing music or devil&amp;rsquo;s advocate.
+I&amp;rsquo;m particularly well versed in Go, PWAs, and Firebase.
+Contact me if you are looking for a speaker on one of these topics.
+Appleseed.vote - CEO and cofounder I&amp;rsquo;m currently the CEO and cofounder of Appleseed.vote. We are a voting startup building a better way to vote directly on issue you care about.</description>
+    </item>
+    
+  </channel>
+</rss>

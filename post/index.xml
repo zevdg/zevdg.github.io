@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on zevdg</title>
+    <link>https://zevdg.com/post/</link>
+    <description>Recent content in Posts on zevdg</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>Zev.Goldstein@gmail.com (Zev Goldstein)</managingEditor>
+    <webMaster>Zev.Goldstein@gmail.com (Zev Goldstein)</webMaster>
+    <lastBuildDate>Sun, 03 Jun 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://zevdg.com/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Example Post</title>
+      <link>https://zevdg.com/post/example-post/</link>
+      <pubDate>Sun, 03 Jun 2018 00:00:00 +0000</pubDate>
+      <author>Zev.Goldstein@gmail.com (Zev Goldstein)</author>
+      <guid>https://zevdg.com/post/example-post/</guid>
+      <description>You can write regular markdown here and Jekyll will automatically convert it to a nice webpage. I strongly encourage you to take 5 minutes to learn how to write in markdown - it&amp;rsquo;ll teach you how to transform regular text into bold/italics/headings/tables/etc.
+Here is some bold text
+Here is a secondary heading Here&amp;rsquo;s a useless table:
+   Number Next number Previous number     Five Six Four   Ten Eleven Nine   Seven Eight Six   Two Three One    How about a yummy crepe?</description>
+    </item>
+    
+  </channel>
+</rss>
