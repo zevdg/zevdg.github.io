@@ -3,37 +3,37 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://zevdg.github.io/post/example-post/</loc>
+    <loc>https://zevdg.com/post/example-post/</loc>
     <lastmod>2018-06-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://zevdg.github.io/page/about-me/</loc>
+    <loc>https://zevdg.com/page/about-me/</loc>
   </url>
   
   <url>
-    <loc>https://zevdg.github.io/categories/</loc>
+    <loc>https://zevdg.com/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://zevdg.github.io/page/</loc>
+    <loc>https://zevdg.com/page/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://zevdg.github.io/post/</loc>
+    <loc>https://zevdg.com/post/</loc>
     <lastmod>2018-06-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://zevdg.github.io/tags/</loc>
+    <loc>https://zevdg.com/tags/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://zevdg.github.io/</loc>
+    <loc>https://zevdg.com/</loc>
     <lastmod>2018-06-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
