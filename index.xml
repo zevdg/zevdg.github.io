@@ -8,7 +8,7 @@
     <language>en-us</language>
     <managingEditor>Zev.Goldstein@gmail.com (Zev Goldstein)</managingEditor>
     <webMaster>Zev.Goldstein@gmail.com (Zev Goldstein)</webMaster>
-    <lastBuildDate>Tue, 05 Jun 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 12 Jun 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://zevdg.com/index.xml" rel="self" type="application/rss+xml" />
     
@@ -16,7 +16,7 @@
     <item>
       <title>Codes of Conduct need to learn from OSS Licenses</title>
       <link>https://zevdg.com/post/codes-of-conduct-and-software-licences/</link>
-      <pubDate>Tue, 05 Jun 2018 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 12 Jun 2018 00:00:00 +0000</pubDate>
       <author>Zev.Goldstein@gmail.com (Zev Goldstein)</author>
       <guid>https://zevdg.com/post/codes-of-conduct-and-software-licences/</guid>
       <description>Full disclosure: I&amp;rsquo;m a fan of Codes of Conduct (CoCs), but if anything, this post favors the other side of the debate. Community concensus is a personal and professional interest of mine1, so I found myself compelled to really understand what was driving the conflict around CoCs. Every time a project considers adopting or changing their code of conduct, the project&amp;rsquo;s community has a discussion about about the change. The thing I&amp;rsquo;ve noticed about these discussions is that they are never about the project itself.</description>
