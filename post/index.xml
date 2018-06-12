@@ -8,21 +8,18 @@
     <language>en-us</language>
     <managingEditor>Zev.Goldstein@gmail.com (Zev Goldstein)</managingEditor>
     <webMaster>Zev.Goldstein@gmail.com (Zev Goldstein)</webMaster>
-    <lastBuildDate>Sun, 03 Jun 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 05 Jun 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://zevdg.com/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Example Post</title>
-      <link>https://zevdg.com/post/example-post/</link>
-      <pubDate>Sun, 03 Jun 2018 00:00:00 +0000</pubDate>
+      <title>Codes of Conduct need to learn from OSS Licenses</title>
+      <link>https://zevdg.com/post/codes-of-conduct-and-software-licences/</link>
+      <pubDate>Tue, 05 Jun 2018 00:00:00 +0000</pubDate>
       <author>Zev.Goldstein@gmail.com (Zev Goldstein)</author>
-      <guid>https://zevdg.com/post/example-post/</guid>
-      <description>You can write regular markdown here and Jekyll will automatically convert it to a nice webpage. I strongly encourage you to take 5 minutes to learn how to write in markdown - it&amp;rsquo;ll teach you how to transform regular text into bold/italics/headings/tables/etc.
-Here is some bold text
-Here is a secondary heading Here&amp;rsquo;s a useless table:
-   Number Next number Previous number     Five Six Four   Ten Eleven Nine   Seven Eight Six   Two Three One    How about a yummy crepe?</description>
+      <guid>https://zevdg.com/post/codes-of-conduct-and-software-licences/</guid>
+      <description>Full disclosure: I&amp;rsquo;m a fan of Codes of Conduct (CoCs), but if anything, this post favors the other side of the debate. Community concensus is a personal and professional interest of mine1, so I found myself compelled to really understand what was driving the conflict around CoCs. Every time a project considers adopting or changing their code of conduct, the project&amp;rsquo;s community has a discussion about about the change. The thing I&amp;rsquo;ve noticed about these discussions is that they are never about the project itself.</description>
     </item>
     
   </channel>

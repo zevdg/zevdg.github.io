@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <title>Codes of Conduct need to learn from OSS Licenses</title>
+  <meta property="og:title" content="Codes of Conduct need to learn from OSS Licenses" />
+  <meta name="twitter:title" content="Codes of Conduct need to learn from OSS Licenses" />
+  <meta name="description" content="Full disclosure: I&rsquo;m a fan of Codes of Conduct (CoCs), but if anything, this post favors the other side of the debate. Community concensus is a personal and professional interest of mine1, so I found myself compelled to really understand what was driving the conflict around CoCs. Every time a project considers adopting or changing their code of conduct, the project&rsquo;s community has a discussion about about the change. The thing I&rsquo;ve noticed about these discussions is that they are never about the project itself.">
+  <meta property="og:description" content="Full disclosure: I&rsquo;m a fan of Codes of Conduct (CoCs), but if anything, this post favors the other side of the debate. Community concensus is a personal and professional interest of mine1, so I found myself compelled to really understand what was driving the conflict around CoCs. Every time a project considers adopting or changing their code of conduct, the project&rsquo;s community has a discussion about about the change. The thing I&rsquo;ve noticed about these discussions is that they are never about the project itself.">
+  <meta name="twitter:description" content="Full disclosure: I&rsquo;m a fan of Codes of Conduct (CoCs), but if anything, this post favors the other side of the debate. Community concensus is a personal and professional interest of mine1, so I …">
+  <meta name="author" content="Zev Goldstein"/>
+  <link href='https://zevdg.com/img/favicon.ico' rel='icon' type='image/x-icon'/>
+  <meta name="twitter:card" content="summary" />
+  <meta property="og:url" content="https://zevdg.com/post/codes-of-conduct-and-software-licences/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="zevdg" />
+
+  <meta name="generator" content="Hugo 0.41" />
+  <link rel="canonical" href="https://zevdg.com/post/codes-of-conduct-and-software-licences/" />
+  <link rel="alternate" href="https://zevdg.com/index.xml" type="application/rss+xml" title="zevdg">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css" integrity="sha384-wITovz90syo1dJWVh32uuETPVEtGigN07tkttEqPv+uR2SE/mbQcG7ATL28aI9H0" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://zevdg.com/css/main.css" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" /><link rel="stylesheet" href="https://zevdg.com/css/syntax.css" /><link rel="stylesheet" href="https://zevdg.com/css/codeblock.css" />
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.css" integrity="sha384-h/L2W9KefUClHWaty3SLE5F/qvc4djlyR4qY3NUV5HGQBBW7stbcfff1+I/vmsHh" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/default-skin/default-skin.min.css" integrity="sha384-iD0dNku6PYSIQLyfTOpB06F2KCZJAKLOThS5HRe8b3ibhdEQ6eKsFf/EeFxdOt5R" crossorigin="anonymous">
+
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+
+</head>
+
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="https://zevdg.com">zevdg</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+        
+          
+            <li>
+              <a title="About Me" href="/page/about-me/">About Me</a>
+            </li>
+          
+        
+
+        
+
+        
+      </ul>
+    </div>
+
+    <div class="avatar-container">
+      <div class="avatar-img-border">
+        
+      </div>
+    </div>
+
+  </div>
+</nav>
+
+
+
+
+    
+  
+  
+  
+
+
+
+
+  
+
+  <header class="header-section ">
+    
+    <div class="intro-header no-img">
+      
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <div class="post-heading">
+              <h1>Codes of Conduct need to learn from OSS Licenses</h1>
+                
+                
+                  <span class="post-meta">
+  
+  
+  <i class="fa fa-calendar-o"></i>&nbsp;Posted on June 5, 2018
+  
+  
+  
+</span>
+
+
+                
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+    
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <article role="main" class="blog-post">
+        
+
+<p>Full disclosure: I&rsquo;m a fan of Codes of Conduct (CoCs), but if anything, this post favors the other side of the debate. Community concensus is a personal and professional interest of mine<sup class="footnote-ref" id="fnref:1"><a href="#fn:1">1</a></sup>, so I found myself compelled to really understand what was driving the conflict around CoCs. Every time a project considers adopting or changing their code of conduct, the project&rsquo;s community has a discussion about about the change. The thing I&rsquo;ve noticed about these discussions is that they are never about the project itself. They inevitably devolve into heated debates about whether CoCs are universally good or bad.</p>
+
+<p>If you just want to participate in a never ending flame war, we already have spaces vs tabs, vim vs emacs, and <a href="https://en.wikipedia.org/wiki/Newcomb%27s_paradox">Newcomb&rsquo;s paradox</a>. Surely, in all 3 of these areas, we&rsquo;re making good progress towards finding the <em>right</em> answer.</p>
+
+<p><img src="/img/spongebob-meme-sarcasm.jpg" alt="/sarcasm" /></p>
+
+<p>Truly, I do hope that someday we can all come to an agreement on CoCs, but I&rsquo;m not holding my breath. In the meantime, <strong>we need to have a discussion about if and when it&rsquo;s acceptable to change the rules of a community</strong>. That&rsquo;s something that we can make real progress on, and would help avoid these pointless and harmful flame wars. I came to this realization by noticing the similarities and differences between CoCs and open-source software (OSS) licences. We&rsquo;ll walk through that together, but first we need a little background on both of those topics.</p>
+
+<h3 id="software-licences">Software Licences</h3>
+
+<p>In the OSS world, there are two categories of software license: copyleft and permissive. Copyleft licences, such as the <a href="https://en.wikipedia.org/wiki/GNU_General_Public_License">GPL</a>, place some restrictions on the software developer in the pursuit of what is best for users and the community at large. The ideology behind these kinds of licences, known as <a href="https://en.wikipedia.org/wiki/Free_software">free (or libre) software</a>, asserts that users should be free to inspect, modify, redistribute, and run the software on their machines for any purpose. Permissive licences, such as <a href="https://en.wikipedia.org/wiki/MIT_License">MIT</a> or <a href="https://en.wikipedia.org/wiki/Apache_License">Apache</a>, place significantly fewer restrictions on other software developers. They mimic software in the <a href="https://en.wikipedia.org/wiki/Public-domain_software">public domain</a>, except they usually require that credit be given to the original authors.</p>
+
+<p><img src="https://imgs.xkcd.com/comics/open_source.png" alt="open-source xkcd" />
+<em>Speaking of giving credit: <a href="https://xkcd.com/225">https://xkcd.com/225</a></em></p>
+
+<p>Sometimes licence choice is a technical decision based on the specific needs of a project, but more often it is an ideological choice of the project&rsquo;s original authors. If they believe in the tenets of free software, they will prefer copyleft licenses for all their projects. Conversely, if they believe that developer freedom is more important than user freedom, they will universally prefer permissive licenses. While there is the occasional debate about which class of licence is generally &ldquo;better&rdquo;, the two camps of developers co-exist peacefully and even contribute to each other&rsquo;s projects without complaint.</p>
+
+<h3 id="codes-of-conduct">Codes of Conduct</h3>
+
+<p>The term Code of Conduct means different things to different people. To avoid confusion, I&rsquo;m going to invent/redefine some terms I&rsquo;ll be using in the rest of this post.</p>
+
+<ol>
+<li>A <strong>Code of Ethics</strong> is a document that outlines how individuals in a community should behave.</li>
+
+<li><p>A <strong>Code of Conduct</strong> or CoC is a code of ethics that provides additional clarity on at least some of the following:</p>
+
+<ul>
+<li>examples of encouraged and discouraged behavior</li>
+<li>the scope, that is the places in which a violation is relevant</li>
+<li>the enforcement process
+
+<ul>
+<li>the processes for reporting a potential violation</li>
+<li>the processes for investigating the validity of a violation</li>
+<li>any resolution or mediation processes</li>
+<li>potential punishments for a confirmed violation</li>
+</ul></li>
+</ul>
+
+<p>Examples: The <a href="https://www.contributor-covenant.org/">Contributor Covenant</a> is the de-facto CoC, but it is commonly used only as a starting point and then customized for each community.</p></li>
+
+<li><p>An <strong>Anti-Code of Conduct</strong> or anti-CoC is a code of ethics that is intentionally vague about the items listed above that a CoC attempts to clarify.<br />
+Examples: The <a href="https://github.com/domgetter/NCoC">NCoC</a> and Linux&rsquo;s <a href="https://www.kernel.org/doc/html/v4.13/process/code-of-conflict.html">Code of Conflict</a> are the most famous anti-CoCs.</p></li>
+</ol>
+
+<p>I&rsquo;ve tried to be as impartial as possible with these definitions. To that end, they focus on the <em>what</em> and totally avoid the <em>why</em>. If you want do go down that rabbit hole, I suggest you start with <a href="https://techcrunch.com/2016/03/05/how-we-may-mesh/">this article</a>. In short, the pro-CoC group believes that CoCs make project communities more welcoming. The anti-CoC crowd is a bit more varied in their specific beliefs, but they agree that the CoC cure is worse than the disease.</p>
+
+<p>Lastly, I should mention that the most contentious part of CoCs relate to their scope. CoCs that only consider your actions within official group spaces — mailing lists, forums, conventions, pull requests, etc. — are significantly less contentious than CoCs that consider other public forums like twitter. In fact, it was my defense of <a href="https://blog.golang.org/conduct-2018">a scope change in the Go CoC</a> that inspired me to write this post.</p>
+
+<h3 id="comparison">Comparison</h3>
+
+<p>So in both licences and CoCs, we have 2 camps of programmers with different beliefs about what is best for their projects&rsquo; communities. The copyleft and pro-CoC camps both choose to impose a few more rules on their members because they believe it will be better for the community as a whole. The permissive licence and anti-CoC camps believe that placing fewer restrictions on their members is best. So why can the licence camps agree to disagree, but the CoC debates always devolve into a shitshow? I see two possible reasons. Firstly, the debate over CoCs is dangerously close to political party lines. Terms like &ldquo;microaggression&rdquo; and &ldquo;gender identity&rdquo; sometimes used in CoCs are trigger words that carry political baggage. If this is the main reason for the vitriol, then there&rsquo;s not much we can do besides wait for the winds of politics to change. But that isn&rsquo;t the only difference between software licences and codes of ethics.</p>
+
+<h3 id="the-secret-3rd-licence">The secret 3rd licence</h3>
+
+<p>So far, I&rsquo;ve presented OSS licences as if it was a choice between copyleft and permissive. However, we can&rsquo;t ignore the default state of a project: no-licence. Fortunately, software licensing has been around long enough that the lack of a licence in an open-source project is a legally well-defined state. You might think that code published online with no licence would be in the public domain, but you&rsquo;d be wrong. The no-licence state is implicitly <em>all rights reserved</em>. In other words, if you publish some code on the interwebs without a licence, and someone uses that code in almost any way, you can sue their ass.</p>
+
+<p><img src="/img/oprah-lawsuit.jpg" alt="oprah lawsuit" /></p>
+
+<p>That&rsquo;s not too unreasonable for code written by a single person, but it&rsquo;s batshit crazy for a project with multiple contributors. In that case, none of the authors actually has the rights to do anything with the full codebase. Each of them can only legally run the parts of the code that they wrote themselves. Obviously this is a terrible state for an open-source project to be in, so you all agree to add a licence. That&rsquo;s great, so long as you all can agree on the same licence.</p>
+
+<p>You see, the process for changing the licence of a piece of software is also legally well-defined. It requires agreement from <em>all</em> of the authors. If any non-trivial contributor doesn&rsquo;t agree to re-licence their code, the project must remove all the code contributed by that author before they can change the licence of the whole project. As a result, most tools these days encourage you to add a licence before you even make your first commit.</p>
+
+<p>This all may seem like lunacy, but in practice, it works out pretty well now that we all know and agree on the rules. A junior developer occasionally creates an open-source project without a licence, but this is almost always noticed and fixed before it becomes a problem.</p>
+
+<p>Now, consider the alternative. Imagine a world where software licences could be changed on the whim of a project&rsquo;s <a href="https://en.wikipedia.org/wiki/Benevolent_dictator_for_life">BDFL</a>, or maybe by a majority vote. If that were the case, then you could pour your blood, sweat, and tears into an open-source project for years, and then wake up one day to find that the licence had been changed to prevent you from using new versions of the very software that you helped create.</p>
+
+<div style="display:flex;justify-content:center"><video width="400" height="400" autoplay loop><source src="/img/racoon-cotton-candy.mp4" type="video/mp4"></video></div>
+
+<p>Most people agree that would be be wrong. Look how sad that racoon got when his project slipped from his adorable little fingers! I digress, but that&rsquo;s basically why software relicensing requires unanimous support. However as a result, it is prohibitively difficult to re-licence any sufficiently large open source project unless every contributor signed away their rights in advance. That&rsquo;s the price we pay for peace in the software licensing wars.</p>
+
+<h3 id="the-secret-3rd-code-of-ethics">The secret 3rd code of ethics</h3>
+
+<p>Like software licences, projects don&rsquo;t start out with a code of ethics. The problem is that unlike licences, this state isn&rsquo;t even close to well-defined. At the end of the day, it boils down to this. Whoever has the power to moderate the community can do whatever they want. The BDFL is judge, jury, and executioner. In practice, this consolidation of power is mostly unavoidable. It&rsquo;s just not feasible for most communities to have a full fledged judicial system. It&rsquo;s always going to be about one or more people with authority making a judgement call. The only real choice here is how transparent your project is about who those people are and what their process is.</p>
+
+<p>But that isn&rsquo;t why you should always have code of ethics. The <em>real</em> problem here is that when your project doesn&rsquo;t have a code of ethics, it&rsquo;s not clear to people who are contributing to your project which camp the maintainers fall into. A common assumption is that a project without a code of ethics is implicitly anti-CoC, but that&rsquo;s as wrong as thinking that unlicensed code is implicitly public domain. In reality, programmers are just notoriously good at avoiding documentation, and they simply haven&rsquo;t gotten around to it yet. The values of these communities can fall anywhere on the anti-CoC to pro-CoC spectrum. By not including a CoC or an anti-CoC, the maintainers are implicitly <em>reserving the right</em> to choose whatever code of ethics they want at a later date. This sounds similar to the no-licence state, but this right isn&rsquo;t reserved individually for each contributor. Instead, it&rsquo;s reserved for whoever has the power. Even worse, this ability to unilaterally change the code of ethics isn&rsquo;t just reserved until a code is chosen. It remains true forever. Any project can change their code of ethics at any time for any reason.</p>
+
+<p><img src="/img/south-park-pitchforks.jpg" alt="rabble rabble rabble" /></p>
+
+<p>Woah there! Put down those pitchforks. The maintainers already have the power to change the codebase at any time for any reason. They&rsquo;ve earned that privilege, and they wield it wisely. We trust them to know their domain and make well informed decisions. Why is this any different? Surely the power to change the moderation process is miniscule compared to the power to change the code itself, right?</p>
+
+<p>On the other hand, if the maintainers take the codebase in a direction that you don&rsquo;t like, open source has you covered. Forking gives you a full copy of the code, and it doesn&rsquo;t take any code away from the original project. If the maintainers take the community in a direction that you don&rsquo;t like, you can&rsquo;t fork the community. You can only divide it. You don&rsquo;t get a full copy, and any member you get, you take away from the original project. This is exactly why our system makes software licences harder to change than the code itself. Social contracts are not the same as code, and when we blindly treat them like code, things get messy.</p>
+
+<h3 id="so-what-do-we-do">So what do we do?</h3>
+
+<p>We come back to this question: why do the various software licence camps get along? It boils down to these 3 things:</p>
+
+<ol>
+<li>We encourage projects to choose a licence as early as possible.</li>
+<li>We don&rsquo;t assume anything about a project with no licence.</li>
+<li>Everyone understands and agrees on the process to change a software licence.</li>
+</ol>
+
+<p>So how does this apply to codes of conducts? Step 1 is the easiest part. <strong>We must encourage projects to pick a code of ethics (be it CoC or anti-CoC) as early as possible.</strong> new users and contributors know what kind of community they are signing up for. I&rsquo;d go a bit further to encourage all codes of ethics to be specific about the scope they apply to since that is a such a contentious topic.</p>
+
+<p>Step 2 is a bit more subtle. <strong>We must stop making assumptions about projects that haven&rsquo;t yet documented their code of ethics.</strong> A missing code of ethics doesn&rsquo;t imply an anti-CoC any more than a missing software licence implies a permissive licence. The only thing that you can safely conclude in this case is that you do not know how this community moderates itself. Similarly, a code of ethics that doesn&rsquo;t define its scope doesn&rsquo;t imply a limited scope. In C, an uninitialized integer doesn&rsquo;t necessarily default to zero. In Javascript, undefined !== false. Programmers understand the difference between defined and undefined behavior, and we all know that English is way more ambiguous than either C or Javascript, so why do many of us insist on filling that ambiguity with foolish assumptions? As programmers, we should know better.</p>
+
+<p>Step 3 is the hardest problem. <strong>We must come to an agreement on a standard process for changing a code of ethics.</strong> That is not to say that all projects must use the same process. As I mentioned above, some projects require contributors to sign a <a href="https://en.wikipedia.org/wiki/Contributor_License_Agreement">CLA</a> in order to &ldquo;opt out&rdquo; of the standard licence change procedure. In the same way, projects that want to change their code of ethics in a non-standard way should be free to do so as long as they warn contributors up front. I&rsquo;m also not implying that codes of ethics should be as hard to change as software licences are. On the contrary, although that would be the easiest solution, I personally believe that a code of ethics must be allowed to change with the times. It&rsquo;s just that we ought to know in advance how those changes will happen.</p>
+
+<p>I don&rsquo;t want to sidetrack this post by suggesting any specific process here, but there are plenty of reasonable options. Everything from unanimous contributor agreement (like software licences), to decision by BDFL decree (the status quo), to maintainer vote, contributor vote, or even community vote. You can even treat the code of ethics just like a module of the source code. Assign a respected maintainer with final say and let the community submit issues and pull requests to them. Any of these options are fine so long as people know what they&rsquo;re signing up for when they join a community.</p>
+
+<p>Codes of ethics are almost never an issue until someone tries to change them, and that should tell us something. Written or not, these codes are the foundations of our communities. People expect them to be stable, but they do need to adapt as the community grows. When we change a code of ethics without a clear and transparent process, it&rsquo;s like the magic trick where you pull the tablecloth out from under someone&rsquo;s dinner. Everyone freaks out, and hopefully, you don&rsquo;t spill any wine. It&rsquo;s not so bad if you only do it once. But try that trick too many times, and people will stop inviting you to dinner.</p>
+
+<h3 id="in-summary">In summary</h3>
+
+<ol>
+<li>Encourage projects to pick a code of ethics (CoC or anti-CoC) as early as possible.</li>
+<li>Don&rsquo;t make any assumptions about projects with no code of ethics.</li>
+<li>We must come to an agreement on a standard process for changing a code of ethics.</li>
+</ol>
+
+<p>If we did these 3 things – like we already do with software licences – then we could finally end all this drama get back to writing awesome software.</p>
+
+<!-- prettier-ignore -->
+<div class="footnotes">
+
+<hr />
+
+<ol>
+<li id="fn:1">&ldquo;Professional interest&rdquo; in community concensus is an extreme understatement. I <a href="https://medium.com/appleseedcorp/a-fresh-start-747b2ce00240">founded my startup</a> appleseed.vote specifically to tackle the problem.
+ <a class="footnote-return" href="#fnref:1"><sup>[return]</sup></a></li>
+</ol>
+</div>
+
+
+        
+
+        
+      </article>
+
+      
+        <ul class="pager blog-pager">
+          
+          
+        </ul>
+      
+
+
+      
+
+    </div>
+  </div>
+</div>
+
+    <footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links">
+          
+              <li>
+                <a href="mailto:Zev.Goldstein@gmail.com" title="Email me">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/zevdg" title="GitHub">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://reddit.com/u/zevdg" title="Reddit">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-reddit-alien fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://linkedin.com/in/zevdg" title="LinkedIn">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+          
+        </ul>
+        <p class="credits copyright text-muted">
+          
+            
+              Zev Goldstein
+            
+          
+
+          &nbsp;&bull;&nbsp;
+          2018
+
+          
+            &nbsp;&bull;&nbsp;
+            <a href="https://zevdg.com">zevdg</a>
+          
+        </p>
+        
+        <p class="credits theme-by text-muted">
+          <a href="http://gohugo.io">Hugo v0.41</a> powered &nbsp;&bull;&nbsp; Theme by <a href="http://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a> adapted to <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a>
+          
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.js" integrity="sha384-/y1Nn9+QQAipbNQWU65krzJralCnuOasHncUFXGkdwntGeSvQicrYkiUBwsgUqc1" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/contrib/auto-render.min.js" integrity="sha384-dq1/gEHSxPZQ7DdrM82ID4YVol9BYyU7GbWlIwnwyPzotpoc57wDw/guX8EaYGPx" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="https://zevdg.com/js/main.js"></script><script> renderMathInElement(document.body); </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.js" integrity="sha384-QELNnmcmU8IR9ZAykt67vGr9/rZJdHbiWi64V88fCPaOohUlHCqUD/unNN0BXSqy" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe-ui-default.min.js" integrity="sha384-m67o7SkQ1ALzKZIFh4CiTA8tmadaujiTa9Vu+nqPSwDOqHrDmxLezTdFln8077+q" crossorigin="anonymous"></script>
+<script src="https://zevdg.com/js/load-photoswipe.js"></script>
+
+
+
+
+
+
+  </body>
+</html>
+
