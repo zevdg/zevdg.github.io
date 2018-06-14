@@ -19,11 +19,9 @@
       <pubDate>Tue, 12 Jun 2018 00:00:00 +0000</pubDate>
       <author>Zev.Goldstein@gmail.com (Zev Goldstein)</author>
       <guid>https://zevdg.com/post/codes-of-conduct-and-software-licences/</guid>
-      <description>&lt;p&gt;&lt;em&gt;Full disclosure: I&amp;rsquo;m a fan of Codes of Conduct (CoCs), but if anything, this post favors the other side of the debate.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Codes of conduct are currently one of the most contentious topics among programmers. As community consensus is a personal and professional interest of mine&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;, I found myself compelled to really understand what was driving this conflict. Every time a project considers adopting or changing their CoC, there is a discussion about about the change, that inevitably devolves into a heated debate about whether codes of conduct are universally good or evil.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>Full disclosure: I&amp;rsquo;m a fan of codes of conduct, but if anything, this post favors the other side of the debate.
+Prerequisites: This post assumes that you already know a bit about codes of conduct and the conflict around them. If you don&amp;rsquo;t, go read this article right now.
+Codes of conduct, or CoCs, are one of the most contentius topics in open source right now. As community consensus is a personal and professional interest of mine1, I found myself compelled to really understand what was driving this conflict.</description>
     </item>
     
   </channel>
