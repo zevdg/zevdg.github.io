@@ -8,20 +8,19 @@
     <language>en-us</language>
     <managingEditor>Zev.Goldstein@gmail.com (Zev Goldstein)</managingEditor>
     <webMaster>Zev.Goldstein@gmail.com (Zev Goldstein)</webMaster>
-    <lastBuildDate>Tue, 12 Jun 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 03 Aug 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://zevdg.com/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Codes of Conduct need to learn from OSS Licenses</title>
-      <link>https://zevdg.com/post/codes-of-conduct-and-software-licences/</link>
-      <pubDate>Tue, 12 Jun 2018 00:00:00 +0000</pubDate>
+      <title>Of Codes and Conduct</title>
+      <link>https://zevdg.com/post/cocs-part-1/</link>
+      <pubDate>Fri, 03 Aug 2018 00:00:00 +0000</pubDate>
       <author>Zev.Goldstein@gmail.com (Zev Goldstein)</author>
-      <guid>https://zevdg.com/post/codes-of-conduct-and-software-licences/</guid>
-      <description>Disclosure: I&amp;rsquo;m a fan of codes of conduct, but I&amp;rsquo;ve done my best to present both sides fairly.
-If you aren&amp;rsquo;t already familiar with codes of conduct and the conflicts around them, you may want to go read this article first.
-Codes of conduct, or CoCs, are one of the most contentius topics in open source right now. Every time a project considers adopting or changing their CoC, the discussion inevitably devolves into a heated debate about whether codes of conduct are universally good or evil.</description>
+      <guid>https://zevdg.com/post/cocs-part-1/</guid>
+      <description>This is the first post in a 3 part series. Part 1 introduces CoCs and why they’re contentious, part 2 explains the problems they attempt to solve, and part 3 suggests some steps we can take to bury the hatchet.
+There’s a war going on in open source right now. It’s been easy to miss because it doesn’t rage continuously; battles flare up sporadically, every 6 months or so. But what they lack in frequency, they make up for in intensity.</description>
     </item>
     
   </channel>
